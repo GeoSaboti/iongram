@@ -1,0 +1,27 @@
+page-login {
+  .ig-login {
+    background-color: #4368b6 !important;
+
+    &__item {
+      background-color: rgba(255, 255, 255 ,.3);
+      border-radius: 5px;
+      margin-bottom: 10px;
+
+      &::last-child {
+        margin-bottom: 0px;
+      }
+
+      .text-imput {
+        color: #fff;
+      }
+    }
+  }
+
+  .ig-name {
+    color: #fff;
+    font-family: 'caveatbold';
+    font-size: 4em;
+    margin: 3em 0 1em !important;
+    text-align: center;
+  }
+}

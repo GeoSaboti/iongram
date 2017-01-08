@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Registro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form (ngSubmit)="doRegister()">
+    <h1 class="ig-name">IonGram</h1>
+    <ion-list no-lines>
+      <ion-item>
+        <ion-input placeholder="Correo"
+                   type="text"
+                   name="username"
+                   [(ngModel)]="newUser.username">
+        </ion-input>
+      </ion-item>
+       <ion-item>
+        <ion-input placeholder="Correo"
+                   type="email"
+                   name="email"
+                   [(ngModel)]="newUser.email">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Contraseña"
+                   type="password"
+                   name="password"
+                   [(ngModel)]="user.password">
+        </ion-input>
+      </ion-item>
+    </ion-list>
+    <button color="light" outline ion-button block type="submit">
+      Ingresar
+    </button>
+  </form>
+</ion-content>

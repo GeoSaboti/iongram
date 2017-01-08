@@ -1,0 +1,47 @@
+page-login {
+  .ig-login {
+    background-color: #4368b6 !important;
+  }
+
+  .ig-name {
+    color: #fff;
+    font-family: 'caveatbold';
+    font-size: 4em;
+    margin: 3em 0 .5em !important;
+    text-align: center;
+  }
+
+  .item {
+    background-color: rgba(255, 255, 255 ,.3);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    &::last-child {
+      margin-bottom: 0px;
+    }
+
+    .text-imput {
+      color: #fff;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #fff;
+    }
+
+    input {
+      color: #fff;
+    }
+  }
+
+  .ig-footer {
+    .toolbar-background {
+      background-color: rgba(255, 255, 255 ,.3);
+    }
+
+    .toolbar-title {
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
